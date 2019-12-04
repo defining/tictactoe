@@ -1,6 +1,5 @@
 #Tic Tac Toe Game
-import sys 
-
+import sys
 
 board = [' ' for x in range (9)]
 
@@ -8,7 +7,6 @@ def insertLetter(letter, position):
   board[position] = letter
 
 def printBoard(board):
-  empty_lines = [0,2,3,5,6,9]
   index = 0
   for row in range(3):
     for i in range(3):
